@@ -14,7 +14,12 @@ dependencies:
 ```
 import 'package:poketypes/poketypes.dart';
 
-print(Poketype('normal').effectiveness['ghost']); // 0.0
+Poketype('normal').name;                   // normal
+Poketype('normal').label['en'];            // Normal
+Poketype('normal').label['ja'];            // ノーマル
+Poketype('normal').color;                  // #b1b1b1
+Poketype('normal').effectiveness['ghost']; // 0.0
+Poketype('normal').weakness['fighting'];   // 2.0
 ```
 
 ## Example
