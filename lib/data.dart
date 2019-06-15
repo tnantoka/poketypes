@@ -3,7 +3,7 @@
 List<dynamic> data = <dynamic>[
   {
     'name': 'normal',
-    'name_ja': 'ノーマル',
+    'label': {'en': 'Normal', 'ja': 'ノーマル'},
     'color': '#b1b1b1',
     'effectiveness': {
       'normal': 1.0,
@@ -24,11 +24,31 @@ List<dynamic> data = <dynamic>[
       'dark': 1.0,
       'steel': 0.5,
       'fairy': 1.0
+    },
+    'weakness': {
+      'normal': 1.0,
+      'fire': 1.0,
+      'water': 1.0,
+      'electric': 1.0,
+      'grass': 1.0,
+      'ice': 1.0,
+      'fighting': 2.0,
+      'poison': 1.0,
+      'ground': 1.0,
+      'flying': 1.0,
+      'psychic': 1.0,
+      'bug': 1.0,
+      'rock': 1.0,
+      'ghost': 0.0,
+      'dragon': 1.0,
+      'dark': 1.0,
+      'steel': 1.0,
+      'fairy': 1.0
     }
   },
   {
     'name': 'fire',
-    'name_ja': 'ほのお',
+    'label': {'en': 'Fire', 'ja': 'ほのお'},
     'color': '#e4653f',
     'effectiveness': {
       'normal': 1.0,
@@ -49,11 +69,31 @@ List<dynamic> data = <dynamic>[
       'dark': 1.0,
       'steel': 2.0,
       'fairy': 1.0
+    },
+    'weakness': {
+      'normal': 1.0,
+      'fire': 0.5,
+      'water': 2.0,
+      'electric': 1.0,
+      'grass': 0.5,
+      'ice': 0.5,
+      'fighting': 1.0,
+      'poison': 1.0,
+      'ground': 2.0,
+      'flying': 1.0,
+      'psychic': 1.0,
+      'bug': 0.5,
+      'rock': 2.0,
+      'ghost': 1.0,
+      'dragon': 1.0,
+      'dark': 1.0,
+      'steel': 0.5,
+      'fairy': 0.5
     }
   },
   {
     'name': 'water',
-    'name_ja': 'みず',
+    'label': {'en': 'Water', 'ja': 'みず'},
     'color': '#50abda',
     'effectiveness': {
       'normal': 1.0,
@@ -74,11 +114,31 @@ List<dynamic> data = <dynamic>[
       'dark': 1.0,
       'steel': 1.0,
       'fairy': 1.0
+    },
+    'weakness': {
+      'normal': 1.0,
+      'fire': 0.5,
+      'water': 0.5,
+      'electric': 2.0,
+      'grass': 2.0,
+      'ice': 0.5,
+      'fighting': 1.0,
+      'poison': 1.0,
+      'ground': 1.0,
+      'flying': 1.0,
+      'psychic': 1.0,
+      'bug': 1.0,
+      'rock': 1.0,
+      'ghost': 1.0,
+      'dragon': 1.0,
+      'dark': 1.0,
+      'steel': 0.5,
+      'fairy': 1.0
     }
   },
   {
     'name': 'electric',
-    'name_ja': 'でんき',
+    'label': {'en': 'Electric', 'ja': 'でんき'},
     'color': '#e8c71a',
     'effectiveness': {
       'normal': 1.0,
@@ -99,11 +159,31 @@ List<dynamic> data = <dynamic>[
       'dark': 1.0,
       'steel': 1.0,
       'fairy': 1.0
+    },
+    'weakness': {
+      'normal': 1.0,
+      'fire': 1.0,
+      'water': 1.0,
+      'electric': 0.5,
+      'grass': 1.0,
+      'ice': 1.0,
+      'fighting': 1.0,
+      'poison': 1.0,
+      'ground': 2.0,
+      'flying': 0.5,
+      'psychic': 1.0,
+      'bug': 1.0,
+      'rock': 1.0,
+      'ghost': 1.0,
+      'dragon': 1.0,
+      'dark': 1.0,
+      'steel': 0.5,
+      'fairy': 1.0
     }
   },
   {
     'name': 'grass',
-    'name_ja': 'くさ',
+    'label': {'en': 'Grass', 'ja': 'くさ'},
     'color': '#9ac30e',
     'effectiveness': {
       'normal': 1.0,
@@ -124,11 +204,31 @@ List<dynamic> data = <dynamic>[
       'dark': 1.0,
       'steel': 0.5,
       'fairy': 1.0
+    },
+    'weakness': {
+      'normal': 1.0,
+      'fire': 2.0,
+      'water': 0.5,
+      'electric': 0.5,
+      'grass': 0.5,
+      'ice': 2.0,
+      'fighting': 1.0,
+      'poison': 2.0,
+      'ground': 0.5,
+      'flying': 2.0,
+      'psychic': 1.0,
+      'bug': 2.0,
+      'rock': 1.0,
+      'ghost': 1.0,
+      'dragon': 1.0,
+      'dark': 1.0,
+      'steel': 1.0,
+      'fairy': 1.0
     }
   },
   {
     'name': 'ice',
-    'name_ja': 'こおり',
+    'label': {'en': 'Ice', 'ja': 'こおり'},
     'color': '#53c4e5',
     'effectiveness': {
       'normal': 1.0,
@@ -149,11 +249,31 @@ List<dynamic> data = <dynamic>[
       'dark': 1.0,
       'steel': 0.5,
       'fairy': 1.0
+    },
+    'weakness': {
+      'normal': 1.0,
+      'fire': 2.0,
+      'water': 1.0,
+      'electric': 1.0,
+      'grass': 1.0,
+      'ice': 0.5,
+      'fighting': 2.0,
+      'poison': 1.0,
+      'ground': 1.0,
+      'flying': 1.0,
+      'psychic': 1.0,
+      'bug': 1.0,
+      'rock': 2.0,
+      'ghost': 1.0,
+      'dragon': 1.0,
+      'dark': 1.0,
+      'steel': 2.0,
+      'fairy': 1.0
     }
   },
   {
     'name': 'fighting',
-    'name_ja': 'かくとう',
+    'label': {'en': 'Fighting', 'ja': 'かくとう'},
     'color': '#e99a3f',
     'effectiveness': {
       'normal': 2.0,
@@ -174,11 +294,31 @@ List<dynamic> data = <dynamic>[
       'dark': 2.0,
       'steel': 2.0,
       'fairy': 0.5
+    },
+    'weakness': {
+      'normal': 1.0,
+      'fire': 1.0,
+      'water': 1.0,
+      'electric': 1.0,
+      'grass': 1.0,
+      'ice': 1.0,
+      'fighting': 1.0,
+      'poison': 1.0,
+      'ground': 1.0,
+      'flying': 2.0,
+      'psychic': 2.0,
+      'bug': 0.5,
+      'rock': 0.5,
+      'ghost': 1.0,
+      'dragon': 1.0,
+      'dark': 0.5,
+      'steel': 1.0,
+      'fairy': 2.0
     }
   },
   {
     'name': 'poison',
-    'name_ja': 'どく',
+    'label': {'en': 'Poison', 'ja': 'どく'},
     'color': '#ba79c1',
     'effectiveness': {
       'normal': 1.0,
@@ -199,11 +339,31 @@ List<dynamic> data = <dynamic>[
       'dark': 1.0,
       'steel': 0.0,
       'fairy': 2.0
+    },
+    'weakness': {
+      'normal': 1.0,
+      'fire': 1.0,
+      'water': 1.0,
+      'electric': 1.0,
+      'grass': 0.5,
+      'ice': 1.0,
+      'fighting': 0.5,
+      'poison': 0.5,
+      'ground': 2.0,
+      'flying': 1.0,
+      'psychic': 2.0,
+      'bug': 0.5,
+      'rock': 1.0,
+      'ghost': 1.0,
+      'dragon': 1.0,
+      'dark': 1.0,
+      'steel': 1.0,
+      'fairy': 0.5
     }
   },
   {
     'name': 'ground',
-    'name_ja': 'じめん',
+    'label': {'en': 'Ground', 'ja': 'じめん'},
     'color': '#c8a841',
     'effectiveness': {
       'normal': 1.0,
@@ -224,11 +384,31 @@ List<dynamic> data = <dynamic>[
       'dark': 1.0,
       'steel': 2.0,
       'fairy': 1.0
+    },
+    'weakness': {
+      'normal': 1.0,
+      'fire': 1.0,
+      'water': 2.0,
+      'electric': 0.0,
+      'grass': 2.0,
+      'ice': 2.0,
+      'fighting': 1.0,
+      'poison': 0.5,
+      'ground': 1.0,
+      'flying': 1.0,
+      'psychic': 1.0,
+      'bug': 1.0,
+      'rock': 0.5,
+      'ghost': 1.0,
+      'dragon': 1.0,
+      'dark': 1.0,
+      'steel': 1.0,
+      'fairy': 1.0
     }
   },
   {
     'name': 'flying',
-    'name_ja': 'ひこう',
+    'label': {'en': 'Flying', 'ja': 'ひこう'},
     'color': '#5e9fe2',
     'effectiveness': {
       'normal': 1.0,
@@ -249,11 +429,31 @@ List<dynamic> data = <dynamic>[
       'dark': 1.0,
       'steel': 0.5,
       'fairy': 1.0
+    },
+    'weakness': {
+      'normal': 1.0,
+      'fire': 1.0,
+      'water': 1.0,
+      'electric': 2.0,
+      'grass': 0.5,
+      'ice': 2.0,
+      'fighting': 0.5,
+      'poison': 1.0,
+      'ground': 0.0,
+      'flying': 1.0,
+      'psychic': 1.0,
+      'bug': 0.5,
+      'rock': 2.0,
+      'ghost': 1.0,
+      'dragon': 1.0,
+      'dark': 1.0,
+      'steel': 1.0,
+      'fairy': 1.0
     }
   },
   {
     'name': 'psychic',
-    'name_ja': 'エスパー',
+    'label': {'en': 'Psychic', 'ja': 'エスパー'},
     'color': '#e885b2',
     'effectiveness': {
       'normal': 1.0,
@@ -274,11 +474,31 @@ List<dynamic> data = <dynamic>[
       'dark': 0.0,
       'steel': 0.5,
       'fairy': 1.0
+    },
+    'weakness': {
+      'normal': 1.0,
+      'fire': 1.0,
+      'water': 1.0,
+      'electric': 1.0,
+      'grass': 1.0,
+      'ice': 1.0,
+      'fighting': 0.5,
+      'poison': 1.0,
+      'ground': 1.0,
+      'flying': 1.0,
+      'psychic': 0.5,
+      'bug': 2.0,
+      'rock': 1.0,
+      'ghost': 2.0,
+      'dragon': 1.0,
+      'dark': 2.0,
+      'steel': 1.0,
+      'fairy': 1.0
     }
   },
   {
     'name': 'bug',
-    'name_ja': 'むし',
+    'label': {'en': 'Bug', 'ja': 'むし'},
     'color': '#6cbe50',
     'effectiveness': {
       'normal': 1.0,
@@ -299,11 +519,31 @@ List<dynamic> data = <dynamic>[
       'dark': 2.0,
       'steel': 0.5,
       'fairy': 0.5
+    },
+    'weakness': {
+      'normal': 1.0,
+      'fire': 2.0,
+      'water': 1.0,
+      'electric': 1.0,
+      'grass': 0.5,
+      'ice': 1.0,
+      'fighting': 0.5,
+      'poison': 1.0,
+      'ground': 0.5,
+      'flying': 2.0,
+      'psychic': 1.0,
+      'bug': 1.0,
+      'rock': 2.0,
+      'ghost': 1.0,
+      'dragon': 1.0,
+      'dark': 1.0,
+      'steel': 1.0,
+      'fairy': 1.0
     }
   },
   {
     'name': 'rock',
-    'name_ja': 'いわ',
+    'label': {'en': 'Rock', 'ja': 'いわ'},
     'color': '#b08754',
     'effectiveness': {
       'normal': 1.0,
@@ -324,11 +564,31 @@ List<dynamic> data = <dynamic>[
       'dark': 1.0,
       'steel': 0.5,
       'fairy': 1.0
+    },
+    'weakness': {
+      'normal': 0.5,
+      'fire': 0.5,
+      'water': 2.0,
+      'electric': 1.0,
+      'grass': 2.0,
+      'ice': 1.0,
+      'fighting': 2.0,
+      'poison': 0.5,
+      'ground': 2.0,
+      'flying': 0.5,
+      'psychic': 1.0,
+      'bug': 1.0,
+      'rock': 1.0,
+      'ghost': 1.0,
+      'dragon': 1.0,
+      'dark': 1.0,
+      'steel': 2.0,
+      'fairy': 1.0
     }
   },
   {
     'name': 'ghost',
-    'name_ja': 'ゴースト',
+    'label': {'en': 'Ghost', 'ja': 'ゴースト'},
     'color': '#756eb4',
     'effectiveness': {
       'normal': 0.0,
@@ -349,11 +609,31 @@ List<dynamic> data = <dynamic>[
       'dark': 0.5,
       'steel': 1.0,
       'fairy': 1.0
+    },
+    'weakness': {
+      'normal': 0.0,
+      'fire': 1.0,
+      'water': 1.0,
+      'electric': 1.0,
+      'grass': 1.0,
+      'ice': 1.0,
+      'fighting': 0.0,
+      'poison': 0.5,
+      'ground': 1.0,
+      'flying': 1.0,
+      'psychic': 1.0,
+      'bug': 0.5,
+      'rock': 1.0,
+      'ghost': 2.0,
+      'dragon': 1.0,
+      'dark': 2.0,
+      'steel': 1.0,
+      'fairy': 1.0
     }
   },
   {
     'name': 'dragon',
-    'name_ja': 'ドラゴン',
+    'label': {'en': 'Dragon', 'ja': 'ドラゴン'},
     'color': '#6c81c8',
     'effectiveness': {
       'normal': 1.0,
@@ -374,11 +654,31 @@ List<dynamic> data = <dynamic>[
       'dark': 1.0,
       'steel': 0.5,
       'fairy': 0.0
+    },
+    'weakness': {
+      'normal': 1.0,
+      'fire': 0.5,
+      'water': 0.5,
+      'electric': 0.5,
+      'grass': 0.5,
+      'ice': 2.0,
+      'fighting': 1.0,
+      'poison': 1.0,
+      'ground': 1.0,
+      'flying': 1.0,
+      'psychic': 1.0,
+      'bug': 1.0,
+      'rock': 1.0,
+      'ghost': 1.0,
+      'dragon': 2.0,
+      'dark': 1.0,
+      'steel': 1.0,
+      'fairy': 2.0
     }
   },
   {
     'name': 'dark',
-    'name_ja': 'あく',
+    'label': {'en': 'Dark', 'ja': 'あく'},
     'color': '#5a3c1e',
     'effectiveness': {
       'normal': 1.0,
@@ -399,11 +699,31 @@ List<dynamic> data = <dynamic>[
       'dark': 0.5,
       'steel': 1.0,
       'fairy': 0.5
+    },
+    'weakness': {
+      'normal': 1.0,
+      'fire': 1.0,
+      'water': 1.0,
+      'electric': 1.0,
+      'grass': 1.0,
+      'ice': 1.0,
+      'fighting': 2.0,
+      'poison': 1.0,
+      'ground': 1.0,
+      'flying': 1.0,
+      'psychic': 0.0,
+      'bug': 2.0,
+      'rock': 1.0,
+      'ghost': 0.5,
+      'dragon': 1.0,
+      'dark': 0.5,
+      'steel': 1.0,
+      'fairy': 2.0
     }
   },
   {
     'name': 'steel',
-    'name_ja': 'はがね',
+    'label': {'en': 'Steel', 'ja': 'はがね'},
     'color': '#919191',
     'effectiveness': {
       'normal': 1.0,
@@ -424,11 +744,31 @@ List<dynamic> data = <dynamic>[
       'dark': 1.0,
       'steel': 0.5,
       'fairy': 2.0
+    },
+    'weakness': {
+      'normal': 0.5,
+      'fire': 2.0,
+      'water': 1.0,
+      'electric': 1.0,
+      'grass': 0.5,
+      'ice': 0.5,
+      'fighting': 2.0,
+      'poison': 0.0,
+      'ground': 2.0,
+      'flying': 0.5,
+      'psychic': 0.5,
+      'bug': 0.5,
+      'rock': 0.5,
+      'ghost': 1.0,
+      'dragon': 0.5,
+      'dark': 1.0,
+      'steel': 0.5,
+      'fairy': 0.5
     }
   },
   {
     'name': 'fairy',
-    'name_ja': 'フェアリー',
+    'label': {'en': 'Fairy', 'ja': 'フェアリー'},
     'color': '#e06cbb',
     'effectiveness': {
       'normal': 1.0,
@@ -448,6 +788,26 @@ List<dynamic> data = <dynamic>[
       'dragon': 2.0,
       'dark': 2.0,
       'steel': 0.5,
+      'fairy': 1.0
+    },
+    'weakness': {
+      'normal': 1.0,
+      'fire': 1.0,
+      'water': 1.0,
+      'electric': 1.0,
+      'grass': 1.0,
+      'ice': 1.0,
+      'fighting': 0.5,
+      'poison': 2.0,
+      'ground': 1.0,
+      'flying': 1.0,
+      'psychic': 1.0,
+      'bug': 0.5,
+      'rock': 1.0,
+      'ghost': 1.0,
+      'dragon': 0.0,
+      'dark': 0.5,
+      'steel': 2.0,
       'fairy': 1.0
     }
   }

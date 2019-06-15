@@ -12,15 +12,17 @@ class Poketype {
 
   Poketype.fromJson(Map<String, dynamic> json) {
     name = json['name'];
-    nameJa = json['name_ja'];
+    label = json['label'];
     color = json['color'];
     effectiveness = json['effectiveness'];
+    weakness = json['weakness'];
   }
 
   String name;
-  String nameJa;
+  Map<String, String> label;
   String color;
   Map<String, double> effectiveness;
+  Map<String, double> weakness;
 
   static List<Poketype> all = data
       .map(
