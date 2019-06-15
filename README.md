@@ -1,5 +1,7 @@
 # Poketypes
 
+[![CircleCI](https://circleci.com/gh/tnantoka/poketypes.svg?style=svg)](https://circleci.com/gh/tnantoka/poketypes)
+
 ## Adding Poketypes to your project
 
 ```
