@@ -50,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
       for (double w in type.weakness.values) {
         switch (w.toString()) {
           case '0.0':
-            texts.add('');
+            texts.add('✕');
             break;
           case '0.5':
             texts.add('△');
